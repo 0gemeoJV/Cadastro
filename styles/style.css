@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #101C26;
+}
+
+.sign-up{
+    display: none;
+}
+
+div{
+    margin: 1rem;
+}
+
+h1{
+    color: white;
+}
+
+form{
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 #0e141a;
+    background-color: #1D2A35;
+}
+
+label{
+    margin-right: 3rem;
+    color: white;
+}
+
+p{
+    color: white
+}
+
+a{
+    color: #F2E49B;
+}
+
+.input-box{
+    border: 1px solid #4B4847;
+    padding: 0.5rem;
+    background-color: white;
+}
+
+.input-box input{
+    border: none;
+    width: 90%;
+    font-size: 15px;
+}
+
+.input-box input:focus-visible{
+    outline: none;
+}
+
+.show-sign-up{
+    display: block;
+}
+
+.hide-login{
+    display: none;
+}
+
+.show-login{
+    display: block;
+}
+
+.hide-sign-up{
+    display: none;
+}
