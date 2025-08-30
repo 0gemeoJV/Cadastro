@@ -60,19 +60,3 @@ a{
 .input-box input:focus-visible{
     outline: none;
 }
-
-.show-sign-up{
-    display: block;
-}
-
-.hide-login{
-    display: none;
-}
-
-.show-login{
-    display: block;
-}
-
-.hide-sign-up{
-    display: none;
-}
